@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d90b7d915f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+       
+        <div class="container">
+            <nav>
+                <img src="fghfdhg.png" class="logo">
+              
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Roni</span> From India</h1>
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="about">
+        <div class="container"> 
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="1111.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p id="hello">👋 Hello there! I'm Roni, a passionate and aspiring frontend developer on a journey to transform ideas into interactive and visually appealing digital experiences.
+
+                        <br>🚀 My Journey:
+                        Ever since I wrote my first line of HTML, I've been captivated by the power of web development. As a beginner in the frontend realm, every project is a chance for me to learn and grow. I'm enthusiastic about keeping up with the latest technologies and design trends to deliver seamless and user-friendly solutions.
+                        <br>🛠️ Tech Stack:
+                        Currently, my toolkit includes HTML, CSS, and JavaScript. I'm skillfull in Java , C, Tailwind CSS . 9+CGPA ,B-Tech Computer Science Student ,Aspiring Software Engineer seeking an internship .My journey as a frontend developer is just beginning. In the future, I aspire to contribute to impactful projects, collaborate with like-minded professionals, and make a positive impact through my work.
+                    </p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skils</div>
+                        <!-- <div class="tab-links"onclick="opentab('experience')"></div> -->
+                        <div class="tab-links"onclick="opentab('education')">Education</div>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li> <span><br>JAVA</span></li>
+                            <li>C<span><br></span></li>
+                            <li><span><br>HTML</span></li>
+                            <li>CSS<span><br></span></li>
+                            <li><span><br>JavaScript</span></li>
+                            <li>TailwindCss<span><br></span></li>
+                            <li><span><br>Git</span></li>
+
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>UI/UX Design Executibe at Coin Digital Ltd.</li>
+                            <li><span>2019 - 2021</span><br>Team lead at StarApp LLC.</li>
+                            <li><span>2017 - 2019<br>Internship at ekart eCommerce.</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li> <span>2022-2026</span><br>Current BTECH CSE from SVU, WestBengal</li>
+                            <li><span>2022</span><br>HS from MKAV, WestBengal</li>
+                            <li><span>2020</span><br>ME from LVAV, WestBengal</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Frontend web design refers to the process of creating the visual and interactive aspects of a website that users interact with directly. It involves the use of HTML, CSS, and JavaScript to build the user interface and experience. Here are some key aspects of frontend web design!</p>
+                    <a href="https://en.wikipedia.org/wiki/Web_design">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Problem Solving</h2>
+                    <p>Problem-solving is a fundamental cognitive process that involves discovering, analyzing, and resolving difficulties or challenges. It is a skill that is valuable in various aspects of life, including personal, academic, professional, and social contexts. Here are key aspects and steps involved in effective problem-solving!</p>
+                    <a href="https://en.wikipedia.org/wiki/Problem_solving#:~:text=Much%20of%20computer%20science%20and,systems%2C%20written%20into%20computer%20programs.">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Beginner Friendly Game</h2>
+                    <p>Creating a beginner-friendly app involves considering various aspects to ensure a smooth and enjoyable user experience. Here are some key factors to keep in mind!</p>
+                    <a href="https://en.wikipedia.org/wiki/Tic-tac-toe">Learn more</a>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="lilyyyy.jpg" alt="">
+                    <div class="layer">
+                        <h3>College-Canteen
+                        </h3>
+                        <p>A Web app or Website for University or college canteen to save all the importent time of student & teachers and also ignore the gathering.</p>
+                        <a href="https://github.com/ronishil0123/College-Canteen"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="ama.png" alt="">
+                    <div class="layer">
+                        <h3>Amazon Clone</h3>
+                        <p>Creating an Amazon clone project involves replicating the functionality and design of the Amazon e-commerce platform. Here are the key aspects you might consider when working on such a project</p>
+                        <a href="https://github.com/ronishil0123/Amazon_Clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="tic.png" alt="">
+                    <div class="layer">
+                        <h3>Tic-Tac-Toe</h3>
+                        <p>Certainly! Tic-tac-toe is a classic two-player game where the objective is to get three of your marks (usually "X" or "O") in a row on a 3x3 grid. Here's a simple outline for a Tic-tac-toe game project</p>
+                        <a href="https://github.com/ronishil0123/Tic-Tac-Toe"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/ronishil0123?tab=repositories" class="btn"><span>See more</span></a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>roniyouknow@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>6291557796</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ronishil/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100073451126807"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/ronishi85665650"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.instagram.com/r.rise01/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="RoniShil_InternshalaResume (3).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                       
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <i class="fa-solid fa-spinner"><a> wait 10 second for send successfully</a></i>
+            <p>Copyright @ Roni. Made With <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    </script>
+
+    <script>
+        var sidemenuv = document.getElementById("#sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwaVUQx_YjwjN20KoUTRwL-xhGcWFsmrd9Twsve3BpVkvtNs4LsNJ0zDQaaQJTcdlrW/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg= document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
