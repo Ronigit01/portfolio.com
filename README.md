@@ -7,7 +7,7 @@ Skills: JAVA / C / HTML / CSS / Tailwind CSS
 
 - 🔭 I’m currently working on projects 
 - 🌱 I’m currently learning javascript 
-- 👯 I’m looking to collaborate on gihub 
+- 👯 I’m looking to collaborate on gihub
 - 💬 Ask me about java & C programming. 
 - 📫 How to reach me: facebook,instagram,linkedin
 
